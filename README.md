@@ -21,7 +21,7 @@
 - Una vez añadido el proyecto al control de versiones hacemos el comando **git status** y vemos que el archivo que hemos creado antes no esta preparado para subirse al repositorio ![GitHub Logo](/gitbuk/10.png)
 - Para añadir el archivo al proyecto tenemos que usar el comando **git add "nombre del archivo"**![GitHub Logo](/gitbuk/11.png)
 - Volvemos a hacer un **git status** y vemos que se ha sincronizado correctamente![GitHub Logo](/gitbuk/12.png)
-- Ahora pasamos a registrar cambios en el historial con el comando **git commit -m "Comentario asociado"** y vemos que se ha realizado correctamente![GitHub Logo](/gitbuk/13.png)
+- Ahora pasamos a registrar cambios en el historial con el comando **git commit -m "Comentario asociado"** y vemos que se ha realizado correctamente ![GitHub Logo](/gitbuk/13.png)
 - Una vez hemos hecho el comit no hace falta usar el comando**git remote origin https://gitlab.com/atorresrod1/ejerciciosbasico.git** ya que una vez que se ha clonado esta apuntando directamente al repositorio 
 - Ahora toca subir el archivo al repositorio ha traves del comando **git push origin master** ![GitHub Logo](/gitbuk/14.png)
 
