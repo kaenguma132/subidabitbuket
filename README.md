@@ -2,7 +2,7 @@
 
 ## Pasos ha realizar en git lab
 - Primero pasamos a realizar la creacion del repositorio desde la pagina web una vez hemos entrado pulsando en create repositorio ![GitHub Logo](/gitbuk/1.png)
-- Tenemos rellenar los apartados de proyecto y repositorio y dejar por defecto el private y pulsamos en create repository![GitHub Logo](/gitbuk/2.png)
+- Tenemos rellenar los apartados de proyecto y repositorio y dejar por defecto el private y pulsamos en create repository ![GitHub Logo](/gitbuk/2.png)
 - comprobamos que se ha creado correctamente ![GitHub Logo](/gitbuk/4.png)
 - una vez echo esto tenemos que generar una contraseña como se hizo en el github, para hacer esto tenemos que ir a los ajustes/contraseña de la aplicacion y crear una nueva![GitHub Logo](/gitbuk/3.5.png)
 - Le damos todos los permisos aunque se le podrian restingir algunos ya que esto es una prueba para subir archivos ![GitHub Logo](/gitbuk/4.png)
