@@ -18,7 +18,7 @@
 ## Pasos a realizar para la subida a gitlab
 
 - Primero tenemos que añadir el proyecto al control de versiones de git con el comando **sudo git init** para esto tenemos que estar dentro de la carpeta que queremos añadir, que en este caso es subidagitlab ![GitHub Logo](/gitbuk/9.png)
-- Una vez añadido el proyecto al control de versiones hacemos el comando **git status** y vemos que el archivo que hemos creado antes no esta añadido al proyecto ![GitHub Logo](/gitbuk/10.png)
+- Una vez añadido el proyecto al control de versiones hacemos el comando **git status** y vemos que el archivo que hemos creado antes no esta añadido al proyecto       ![GitHub Logo](/gitbuk/10.png)
 - Para añadir el archivo al proyecto tenemos que usar el comando **git add "nombre del archivo"**![GitHub Logo](/gitbuk/11.png)
 - Volvemos a hacer un **git status** y vemos que se ha sincronizado correctamente![GitHub Logo](/gitbuk/12.png)
 - Ahora pasamos a registrar cambios en el historial con el comando **git commit -m "Comentario asociado"** y vemos que se ha realizado correctamente![GitHub Logo](/gitbuk/13.png)
