@@ -1,24 +1,31 @@
 # Ejecicios basicos con Bitbuket Alejandro Torres
 
 ## Pasos ha realizar en git lab
-- Primero pasamos a realizar la creacion del repositorio desde la pagina web una vez hemos entrado pulsando en create poject ![GitHub Logo](/gitlab/1.png)
-- Tenemos que pulsar en **Create blanck project**  ![GitHub Logo](/gitlab/2.png)
-- Ahora se nos habre automáticamente una ventana en la cual tenemos que darle un nombre al proyecto que en este caso será **ejerciciosbasico**, dejamos la opción de private por defecto y pulsamos en create project,Una vez hemos pulsado en create project nos saldra la siguiente imagen verificando oque se ha creado el proyecto correctamente ![GitHub Logo](/gitlab/3.png)
-- 
+- Primero pasamos a realizar la creacion del repositorio desde la pagina web una vez hemos entrado pulsando en create repositorio ![GitHub Logo](/gitbuk/1.png)
+- Tenemos rellenar los apartados de proyecto y repositorio y dejar por defecto el private y pulsamos en create repository![GitHub Logo](/gitbuk/2.png)
+- comprobamos que se ha creado correctamente ![GitHub Logo](/gitbuk/4.png)
+- una vez echo esto tenemos que generar una contraseña como se hizo en el github, para hacer esto tenemos que ir a los ajustes/contraseña de la aplicacion y crear una nueva![GitHub Logo](/gitbuk/3.5.png)
+- Le damos todos los permisos aunque se le podrian restingir algunos ya que esto es una prueba para subir archivos ![GitHub Logo](/gitbuk/4.png)
+- y vemos como nos ha generado la clave ![GitHub Logo](/gitbuk/5.5.png)
+
 ## Pasos a realizar en la máquina local antes de subir los archivos a git lab
-- Creamos una carpeta nueva llamada subidagitlab con el comando **mkdir** "se tiene que crear como sudo" ![GitHub Logo](/gitlab/4.png)
-- Ahora desde el propio terminar entramos a la carpeta con el comando **cd** y el nombre de la carpeta a la cual queremos entrar "si la capeta no está en la ubicacion donde nosotros estamos en la consola tendremos que escribir la ruta entera para poder situarnos dentro de ella" insertar imagen![GitHub Logo](/gitlab/15.png)
-- Una vez dentro crearemos con el comando sudo **touch / nano /vi** algun docuemto para asi poder hacer la prueba de la subida de archivos y usamos el comando **ls** para verificar que se han creado correctamente insertar imagen![GitHub Logo](/gitlab/5.png)
+
+-En el el escritorio lo que podemos hacer es clonar el repositorio con el comando **git clone https://kaenguma132@bitbucket.org/kaenguma132/subidagitbuk.git
+**![GitHub Logo](/gitbuk/5.75.png)
+- Ahora desde el propio terminar entramos a la carpeta con el comando **cd** y el nombre de la carpeta a la cual queremos entrar "si la capeta no está en la ubicacion donde nosotros estamos en la consola tendremos que escribir la ruta entera para poder situarnos dentro de ella" insertar imagen ![GitHub Logo](/gitbuk/7.png)
+- Una vez dentro crearemos con el comando sudo **touch / nano /vi** algun docuemto para asi poder hacer la prueba de la subida de archivos y usamos el comando **ls** para verificar que se han creado correctamente insertar imagen  ![GitHub Logo](/gitbuk/8.png)
 
 ## Pasos a realizar para la subida a gitlab
-- Primero tenemos que añadir el proyecto al control de versiones de git con el comando **sudo git init** para esto tenemos que estar dentro de la carpeta que queremos añadir, que en este caso es subidagitlab![GitHub Logo](/gitlab/6.png)
-- Una vez añadido el proyecto al control de versiones hacemos el comando**git status** y vemos que el archivo que hemos creado antes no esta añadido al proyecto ![GitHub Logo](/gitlab/7.png)
-- Para añadir el archivo al proyecto tenemos que usar el comando **git add "nombre del archivo"**![GitHub Logo](/gitlab/8.png)
-- Volvemos a hacer un **git status** y vemos que se ha sincronizado correctamente![GitHub Logo](/gitlab/9.png)
-- Ahora pasamos a registrar cambios en el historial con el comando **git commit -m "Comentario asociado"** y vemos que se ha realizado correctamente![GitHub Logo](/gitlab/10.png)
-- Una vez hemos hecho el comit tenemos que hacer que esta carpeta apunte remotamente al repositorio de git lab con el comando **git remote origin https://gitlab.com/atorresrod1/ejerciciosbasico.git ** ![GitHub Logo](/gitlab/11.png)
-- Ahora toca subir el archivo a gitlab a traves del comando **git push origin master** ![GitHub Logo](/gitlab/12.png)
+
+- Primero tenemos que añadir el proyecto al control de versiones de git con el comando **sudo git init** para esto tenemos que estar dentro de la carpeta que queremos añadir, que en este caso es subidagitlab ![GitHub Logo](/gitbuk/9.png)
+- Una vez añadido el proyecto al control de versiones hacemos el comando**git status** y vemos que el archivo que hemos creado antes no esta añadido al proyecto ![GitHub Logo](/gitbuk/10.png)
+- Para añadir el archivo al proyecto tenemos que usar el comando **git add "nombre del archivo"**![GitHub Logo](/gitbuk/11.png)
+- Volvemos a hacer un **git status** y vemos que se ha sincronizado correctamente![GitHub Logo](/gitbuk/12.png)
+- Ahora pasamos a registrar cambios en el historial con el comando **git commit -m "Comentario asociado"** y vemos que se ha realizado correctamente![GitHub Logo](/gitbuk/13.png)
+- Una vez hemos hecho el comit no hace falta usar el comando**git remote origin https://gitlab.com/atorresrod1/ejerciciosbasico.git** ya que una vez que se ha clonado esta apuntando directamente al repositorio 
+- Ahora toca subir el archivo al repositorio ha traves del comando **git push origin master** ![GitHub Logo](/gitbuk/14.png)
 
 ## Comprobarque se ha subido el archivo a gitlab
-- A simple vista parece que no se ha subido, pero es debido a que estamos viendo la rama del **main** y nosotros lo hemos subido a la rama de **master** para ver si realmente se ha subido selecionaremos la rama master![GitHub Logo](/gitlab/13.png)
-- una vez que se ha cargado la rama podemos ver que se ha subido correctamente ![GitHub Logo](/gitlab/14.png)
+
+
+- Actualizamos la pagina podemos ver que se ha subido correctamente ![GitHub Logo](/gitlab/15.png)
