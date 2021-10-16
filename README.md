@@ -28,4 +28,4 @@
 ## Comprobarque se ha subido el archivo a gitlab
 
 
-- Actualizamos la pagina podemos ver que se ha subido correctamente ![GitHub Logo](/gitlab/15.png)
+- Actualizamos la pagina podemos ver que se ha subido correctamente ![GitHub Logo](/gitbuk/15.png)
