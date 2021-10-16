@@ -6,7 +6,7 @@
 - comprobamos que se ha creado correctamente ![GitHub Logo](/gitbuk/3.png)
 - una vez echo esto tenemos que generar una contraseña como se hizo en el github, para hacer esto tenemos que ir a los ajustes/contraseña de la aplicacion y crear una nueva![GitHub Logo](/gitbuk/3.5.png)
 - Le damos todos los permisos aunque se le podrian restingir algunos ya que esto es una prueba para subir archivos ![GitHub Logo](/gitbuk/4.png)
-- y vemos como nos ha generado la clave
+- Esperamos un momento y vemos como nos ha generado la clave " para este caso la he dejado medio visible"
 ![GitHub Logo](/gitbuk/5.5.png)
 
 ## Pasos a realizar en la máquina local antes de subir los archivos a git lab
