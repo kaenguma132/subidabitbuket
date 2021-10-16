@@ -11,7 +11,7 @@
 
 ## Pasos a realizar en la máquina local antes de subir los archivos a git lab
 
-- En el el escritorio lo que podemos hacer es clonar el repositorio con el comando **git clone https://kaenguma132@bitbucket.org/kaenguma132/subidagitbuk.git** ![GitHub Logo](/gitbuk/5.75.png)
+- En el el escritorio lo que podemos hacer es clonar el repositorio con el comando **git clone https://kaenguma132@bitbucket.org/kaenguma132/subidagitbuk.git** devido ha que he tenido problemas a la hora de hacer el push lo he echo asi  ![GitHub Logo](/gitbuk/5.75.png)
 - Ahora desde el propio terminar entramos a la carpeta con el comando **cd** y el nombre de la carpeta a la cual queremos entrar "si la capeta no está en la ubicacion donde nosotros estamos en la consola tendremos que escribir la ruta entera para poder situarnos dentro de ella" insertar imagen ![GitHub Logo](/gitbuk/7.png)
 - Una vez dentro crearemos con el comando sudo **touch / nano /vi** algun docuemto para asi poder hacer la prueba de la subida de archivos y usamos el comando **ls** para verificar que se han creado correctamente insertar imagen  ![GitHub Logo](/gitbuk/8.png)
 
